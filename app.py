@@ -1,6 +1,6 @@
 from flask.cli import FlaskGroup
 
-from project.server import create_app
+from routes.server import create_app
 
 
 app = create_app()
